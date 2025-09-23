@@ -95,7 +95,7 @@ namespace edu_simple
 
         static void Menu()
         {
-            Console.WriteLine("=== МЕНЮ (упрощённое) ===");
+            Console.WriteLine("=== МЕНЮ ===");
             Console.WriteLine("1) Добавить институт");
             Console.WriteLine("2) Переименовать институт");
             Console.WriteLine("3) Удалить институт");
@@ -334,3 +334,4 @@ gname = Console.ReadLine()?.Trim();
         }
     }
 }
+
